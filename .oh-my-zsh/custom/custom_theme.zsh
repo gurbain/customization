@@ -466,6 +466,9 @@ function zsh_host(){
 		*pi*)
 	    	echo "\ue722"
 	    	;;
+		*iminds.be*)
+		echo "`hostname -s`"
+		;;
 		*)
 	    	echo $HOSTN
 	    	;;
