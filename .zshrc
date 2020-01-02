@@ -82,7 +82,8 @@ export JRE_HOME
 export PATH
 
 ## ROS
-source /opt/ros/melodic/setup.zsh
+source /opt/ros/kinetic/setup.zsh
+source /fieldbot_obstacles/devel/setup.zsh
 #export ROS_HOSTNAME=10.42.0.1
 #export ROS_MASTER_URI=http://10.42.0.1:5555/
 
