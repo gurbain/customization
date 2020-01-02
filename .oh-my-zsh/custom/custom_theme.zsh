@@ -33,7 +33,7 @@ function print_icon() {
   if [ -n "$ICON_USER_VARIABLE" ]; then
 	echo -n "${icons[$icon_name]}"
   else
-    echo -n "${(P)ICON_USER_VARIABLE}"
+	echo -n "${(P)ICON_USER_VARIABLE}"
   fi
 }
 
@@ -461,17 +461,21 @@ function zsh_host(){
 		echo "\uf109"
 		;;
 		*desktop*)
-	    	echo "\uf108"
-	    	;;
+			echo "\uf108"
+			;;
 		*pi*)
-	    	echo "\ue722"
-	    	;;
+			echo "\ue722"
+			;;
 		*iminds.be*)
 		echo "`hostname -s`"
 		;;
 		*)
-	    	echo $HOSTN
-	    	;;
+			if [ -f /.dockerenv ]; then
+				echo "\uf308  $HOSTN";
+			else
+				echo $HOSTN;
+			fi
+			;;
 	esac
 }
 POWERLEVEL9K_HOST_TEMPLATE="`zsh_host`"
@@ -1154,8 +1158,13 @@ if [[ "${TERM}" =~ "tmux" || "${TERM}" =~ "screen" ]]; then
 	# Segment list for right prompt
 	POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status vcs rbenv todo)
 else
+
+	if [ -f /.dockerenv ]; then
+		POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host dir_writable dir background_jobs command_execution_time)
+	else
+		POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host context dir_writable dir background_jobs command_execution_time)
+	fi
 	# Segment list for left prompt
-	POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host context dir_writable dir background_jobs command_execution_time)
 	# Segment list for right prompt
 	POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status vcs rbenv todo time battery)
 fi
