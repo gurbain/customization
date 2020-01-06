@@ -69,20 +69,6 @@ plugins=(battery git docker)
 
 ##### Custom variables ######
 
-# Language
-export LC_ALL=en_GB.UTF-8
-export LANG=en_GB.UTF-8
-export LANGUAGE=en_GB.UTF-8
-
-# JAVA
-export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
-export CLASSPATH=/usr/lib/jvm/java-1.8.0-openjdk-amd64/lib:$CLASSPATH
-export PATH=$HOME/bin:$HOME/bin/*:$JAVA_HOME/bin:$PATH
-export JRE_HOME
-export PATH
-
 ## ROS
 source /opt/ros/melodic/setup.zsh
-#export ROS_HOSTNAME=10.42.0.1
-#export ROS_MASTER_URI=http://10.42.0.1:5555/
-
+source /fieldbot_ros/devel/setup.zsh
