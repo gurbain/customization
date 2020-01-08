@@ -69,6 +69,10 @@ plugins=(battery git docker)
 
 ##### Custom variables ######
 
+## Language
+export LANGUAGE="C.UTF-8"
+export LC_ALL="C.UTF-8"
+
 ## ROS
 source /opt/ros/melodic/setup.zsh
 source /fieldbot_ros/devel/setup.zsh
