@@ -75,4 +75,4 @@ export LC_ALL="C.UTF-8"
 
 ## ROS
 source /opt/ros/melodic/setup.zsh
-source /fieldbot_ros/devel/setup.zsh
+source /home/gurbain/exobot_land_ros/devel/setup.zsh
