@@ -467,7 +467,8 @@ function zsh_host(){
 			echo "\ue722"
 			;;
 		*exo*)
-			echo "\ufba7"
+			ROBOT_NAME=$(hostname -f | grep -oP '(?<=-).*(?=.h)')
+			echo " \ufba7 $ROBOT_NAME"
 			;;
 		*iminds.be*)
 			echo "`hostname -s`"
