@@ -1,0 +1,43 @@
+{
+  "about_get_books_msg_again": false,
+  "add a plugin dialog": "/home/gurbain",
+  "add books dialog dir": "/home/gurbain",
+  "catalogs_to_be_synced": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "database location dialog": "/home/gurbain/prj/books",
+  "recursive book import root dir dialog": "/home/gurbain/prj/books",
+  "sort_history": [
+    [
+      "title",
+      true
+    ],
+    [
+      "last_modified",
+      false
+    ],
+    [
+      "last_modified",
+      true
+    ],
+    [
+      "title",
+      true
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "title",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "default",
+  "welcome_wizard_was_run": true
+}

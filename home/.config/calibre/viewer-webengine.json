@@ -1,0 +1,188 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAAAAAAHAAAB38AAAQ3AAAAHQAAAFUAAAKcAAADJAAAAAACAAAAB4AAAAAAAAAAOAAAB38AAAQ3"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEiAAAC0PwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIwA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAAAAALQAAAAnQD///8AAAABAAAAAAAAAAD8AgAAAAP7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAABpAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAANcA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFQD///8AAAeAAAAEAAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAAAAAABAAAAHgBhAGMAdABpAG8AbgBzAF8AdABvAG8AbABiAGEAcgIAAAAA/////wAAAAAAAAAA"
+  },
+  "old_prefs_migrated": true,
+  "saved-search-settings": {
+    "poirot": {
+      "case_sensitive": false,
+      "mode": "normal"
+    }
+  },
+  "session_data": {
+    "base_font_size": 22,
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "McKinsey & Company Inc.",
+          "Marc Goedhart",
+          "David Wessels"
+        ],
+        "key": "/home/gurbain/prj/books/McKinsey/Valuation (237)/Valuation - McKinsey.epub",
+        "pathtoebook": "/home/gurbain/prj/books/McKinsey/Valuation (237)/Valuation - McKinsey.epub",
+        "timestamp": "2021-05-08T16:06:14.517Z",
+        "title": "Valuation"
+      },
+      {
+        "authors": [
+          "Michael Taillard"
+        ],
+        "key": "/home/gurbain/prj/books/Michael Taillard/Corporate Finance For Dummies (238)/Corporate Finance For Dummies - Michael Taillard.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Michael Taillard/Corporate Finance For Dummies (238)/Corporate Finance For Dummies - Michael Taillard.epub",
+        "timestamp": "2021-05-08T16:04:20.428Z",
+        "title": "Corporate Finance For Dummies"
+      },
+      {
+        "authors": [
+          "Michelle Obama"
+        ],
+        "key": "/home/gurbain/prj/books/Michelle Obama/Devenir (236)/Devenir - Michelle Obama.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Michelle Obama/Devenir (236)/Devenir - Michelle Obama.epub",
+        "timestamp": "2021-05-08T12:41:02.287Z",
+        "title": "Devenir"
+      },
+      {
+        "authors": [
+          "Michelle Obama"
+        ],
+        "key": "/home/gurbain/prj/books/Michelle Obama/Becoming (235)/Becoming - Michelle Obama.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Michelle Obama/Becoming (235)/Becoming - Michelle Obama.epub",
+        "timestamp": "2021-05-08T12:39:11.584Z",
+        "title": "Becoming"
+      },
+      {
+        "authors": [
+          "Christie,Agatha"
+        ],
+        "key": "/home/gurbain/prj/books/Christie,Agatha/Destination inconnue (38)/Destination inconnue - Christie,Agatha.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Christie,Agatha/Destination inconnue (38)/Destination inconnue - Christie,Agatha.epub",
+        "timestamp": "2020-08-18T22:07:48.344Z",
+        "title": "Destination inconnue"
+      },
+      {
+        "authors": [
+          "Beckman, Thea"
+        ],
+        "key": "/home/gurbain/prj/books/Beckman, Thea/Kruistocht In Spijkerbroek (121)/Kruistocht In Spijkerbroek - Beckman, Thea.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Beckman, Thea/Kruistocht In Spijkerbroek (121)/Kruistocht In Spijkerbroek - Beckman, Thea.epub",
+        "timestamp": "2020-08-18T22:06:23.819Z",
+        "title": "Kruistocht In Spijkerbroek"
+      },
+      {
+        "authors": [
+          "Michael Shellenberger",
+          "Ted Nordhaus"
+        ],
+        "key": "/tmp/calibre_4.99.4_tmp_wu16p335/74bbpufw_view_device_book.epub",
+        "pathtoebook": "/tmp/calibre_4.99.4_tmp_wu16p335/74bbpufw_view_device_book.epub",
+        "timestamp": "2020-08-02T23:09:39.603Z",
+        "title": "Love Your Monsters: Postenvironmentalism and the Anthropocene"
+      },
+      {
+        "authors": [
+          "Christie,Agatha"
+        ],
+        "key": "/home/gurbain/prj/books/Christie,Agatha/Drame en trois actes (94)/Drame en trois actes - Christie,Agatha.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Christie,Agatha/Drame en trois actes (94)/Drame en trois actes - Christie,Agatha.epub",
+        "timestamp": "2020-05-24T19:29:07.287Z",
+        "title": "Drame en trois actes"
+      },
+      {
+        "authors": [
+          "Christie,Agatha"
+        ],
+        "key": "/home/gurbain/prj/books/Christie,Agatha/Un meurtre est-il facile _ (36)/Un meurtre est-il facile _ - Christie,Agatha.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Christie,Agatha/Un meurtre est-il facile _ (36)/Un meurtre est-il facile _ - Christie,Agatha.epub",
+        "timestamp": "2020-05-24T19:28:46.963Z",
+        "title": "Un meurtre est-il facile ?"
+      },
+      {
+        "authors": [
+          "Christie,Agatha"
+        ],
+        "key": "/home/gurbain/prj/books/Christie,Agatha/La plume empoisonnee (107)/La plume empoisonnee - Christie,Agatha.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Christie,Agatha/La plume empoisonnee (107)/La plume empoisonnee - Christie,Agatha.epub",
+        "timestamp": "2020-05-24T19:28:21.358Z",
+        "title": "La plume empoisonnée"
+      },
+      {
+        "authors": [
+          "Christie,Agatha"
+        ],
+        "key": "/home/gurbain/prj/books/Christie,Agatha/Le mysterieux Mr Quinn (112)/Le mysterieux Mr Quinn - Christie,Agatha.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Christie,Agatha/Le mysterieux Mr Quinn (112)/Le mysterieux Mr Quinn - Christie,Agatha.epub",
+        "timestamp": "2020-05-24T19:27:57.435Z",
+        "title": "Le mystérieux Mr Quinn"
+      },
+      {
+        "authors": [
+          "Christie,Agatha"
+        ],
+        "key": "/home/gurbain/prj/books/Christie,Agatha/Rendez-vous a Bagdad (39)/Rendez-vous a Bagdad - Christie,Agatha.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Christie,Agatha/Rendez-vous a Bagdad (39)/Rendez-vous a Bagdad - Christie,Agatha.epub",
+        "timestamp": "2020-05-24T19:27:19.926Z",
+        "title": "Rendez-vous à Bagdad"
+      },
+      {
+        "authors": [
+          "Christie,Agatha"
+        ],
+        "key": "/home/gurbain/prj/books/Christie,Agatha/Meurtre en Mesopotamie (70)/Meurtre en Mesopotamie - Christie,Agatha.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Christie,Agatha/Meurtre en Mesopotamie (70)/Meurtre en Mesopotamie - Christie,Agatha.epub",
+        "timestamp": "2020-05-24T19:26:29.191Z",
+        "title": "Meurtre en Mésopotamie"
+      },
+      {
+        "authors": [
+          "Christie, Agatha"
+        ],
+        "key": "/home/gurbain/prj/books/Christie, Agatha/Le Secret Des Chimneys (48)/Le Secret Des Chimneys - Christie, Agatha.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Christie, Agatha/Le Secret Des Chimneys (48)/Le Secret Des Chimneys - Christie, Agatha.epub",
+        "timestamp": "2020-05-24T19:25:43.297Z",
+        "title": "Le Secret Des Chimneys"
+      },
+      {
+        "authors": [
+          "Christie, Agatha"
+        ],
+        "key": "/home/gurbain/prj/books/Christie, Agatha/Cinq Heures Vingt-Cinq (35)/Cinq Heures Vingt-Cinq - Christie, Agatha.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Christie, Agatha/Cinq Heures Vingt-Cinq (35)/Cinq Heures Vingt-Cinq - Christie, Agatha.epub",
+        "timestamp": "2020-05-24T19:24:41.538Z",
+        "title": "Cinq Heures Vingt-Cinq"
+      },
+      {
+        "authors": [
+          "Philip Pullman"
+        ],
+        "key": "/home/gurbain/prj/books/Philip Pullman/The Subtle Knife (27)/The Subtle Knife - Philip Pullman.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Philip Pullman/The Subtle Knife (27)/The Subtle Knife - Philip Pullman.epub",
+        "timestamp": "2020-05-24T19:15:26.455Z",
+        "title": "The Subtle Knife"
+      },
+      {
+        "authors": [
+          "Philip Pullman"
+        ],
+        "key": "/home/gurbain/prj/books/Philip Pullman/The Amber Spyglass (26)/The Amber Spyglass - Philip Pullman.epub",
+        "pathtoebook": "/home/gurbain/prj/books/Philip Pullman/The Amber Spyglass (26)/The Amber Spyglass - Philip Pullman.epub",
+        "timestamp": "2020-05-24T19:14:52.351Z",
+        "title": "The Amber Spyglass"
+      }
+    ]
+  },
+  "viewer-search-case-sensitive": false,
+  "viewer-search-mode": "normal"
+}

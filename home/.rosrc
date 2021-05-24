@@ -1,0 +1,75 @@
+unsourceros() {
+        echo "Switching to ROS Noetic. Cleaning and sourcing new distro!"
+        unset CMAKE_PREFIX_PATH
+        unset ROS_ROOT
+        unset ROS_PACKAGE_PATH
+        unset ROS_MASTER_URI
+        unset ROS_DISTRO
+        unset ROS_ETC_DIR
+        unset ROSLISP_PACKAGE_DIRECTORIES
+
+        unset ROSCONSOLE_FORMAT
+
+        # clear ros paths from other env vars that we can't totally remove
+        export PATH=$(echo $PATH | perl -ne 's/\:?[^\:]*ros[^\:]*(?=\:)?//g; print;')
+        export PYTHONPATH=$(echo $PYTHONPATH | perl -ne 's/\:?[^\:]*ros[^\:]*(?=\:)?//g; print;')
+        export LD_LIBRARY_PATH=$(echo $LD_LIBRARY_PATH | perl -ne 's/\:?[^\:]*ros[^\:]*(?=\:)?//g; print;')
+        export PKG_CONFIG_PATH=$(echo $PKG_CONFIG_PATH | perl -ne 's/\:?[^\:]*ros[^\:]*(?=\:)?//g; print;')
+        export CMAKE_PREFIX_PATH=$(echo $CMAKE_PREFIX_PATH | perl -ne 's/\:?[^\:]*ros[^\:]*(?=\:)?//g; print;')
+        export MANPATH=$(echo $MANPATH | perl -ne 's/\:?[^\:]*ros[^\:]*(?=\:)?//g; print;')
+}
+
+# Java for Android ROS
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+ANDROID_HOME=~/Android/Sdk
+ANDROID_NDK=~/Android/Sdk/ndk-bundle
+
+# ROS 2 (default)
+source /opt/ros/foxy/setup.zsh
+source $HOME/dev/treebot_data_acquisition/install/setup.sh
+alias ros2bag="ros2 bag"
+alias ros2run="ros2 run"
+alias ros2bridge="unsourceros; source /opt/ros/noetic/setup.zsh; source /opt/ros/foxy/setup.zsh; \
+                  source $HOME/dev/treebot_data_acquisition/install/setup.zsh; \
+                  export ROS_MASTER_URI=http://localhost:11311; ros2 run ros1_bridge dynamic_bridge"
+alias ros2launch="ros2 launch"
+alias ros2daemon="ros2 daemon"
+alias ros2node="ros2 node"
+alias ros2pkg="ros2 pkg"
+alias ros2topic="ros2 topic"
+alias ros2param="ros2 param"
+alias ros2service="ros2 service"
+alias ros2wtf="ros2 wtf"
+alias ros2doctor="ros2 doctor"
+alias ros2lifecycle="ros2 lifecycle"
+
+# ROS 1
+alias ros1_mode="unsourceros; source /opt/ros/noetic/setup.zsh; source $HOME/ros1/devel/setup.zsh"
+alias ros2_mode="unsourceros; source /opt/ros/foxy/setup.zsh; source $HOME/dev/treebot_data_acquisition/install/setup.zsh"
+#alias catkin_init_workspace="unsourceros; source /opt/ros/noetic/setup.zsh; catkin_init_workspace"
+#alias rosbag="unsourceros; source /opt/ros/noetic/setup.zsh; rosbag"
+#alias roscd="unsourceros; source /opt/ros/noetic/setup.zsh; roscd"
+#alias roscore="unsourceros; source /opt/ros/noetic/setup.zsh; roscore"
+#alias roslaunch="unsourceros; source /opt/ros/noetic/setup.zsh; roslaunch"
+#alias rosgraph="unsourceros; source /opt/ros/noetic/setup.zsh; rosgraph"
+#alias rosnode="unsourceros; source /opt/ros/noetic/setup.zsh; rosnode"
+#alias rosparam="unsourceros; source /opt/ros/noetic/setup.zsh; rosparam"
+#alias rostopic="unsourceros; source /opt/ros/noetic/setup.zsh; rostopic"
+#alias rosrun="unsourceros; source /opt/ros/noetic/setup.zsh; rosrun"
+#alias roswtf="unsourceros; source /opt/ros/noetic/setup.zsh; roswtf"
+
+# Network
+#export ROS_IPV6=on
+#export ROS_MASTER_URI=http://master:11311
+
+# Other tools
+alias tf2='cd /var/tmp && ros2 run tf2_tools view_frames.py && evince frames.pdf &'
+#source $HOME/dev/treebot_data_acquisition/install/setup.zsh
+#source /opt/ros/noetic/setup.zsh
+#source /opt/ros/foxy/setup.zsh
+
+# Exobots
+source $HOME/dev/exobot_field_ros/exobot_docker/exo_setup.zsh
+source $HOME/dev/exobot_l1_ros/docker/exo_setup.zsh
+source $HOME/dev/ouster/docker/exo_setup.zsh
+source $HOME/dev/treebot_data_acquisition/.devcontainer/exo_setup.zsh
