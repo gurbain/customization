@@ -466,9 +466,15 @@ function zsh_host(){
 		*pi*)
 			echo "\ue722"
 			;;
-		*iminds.be*)
-		echo "`hostname -s`"
-		;;
+		*gpu*)
+			echo " \uf233"
+			;;
+		*jetson*)
+                        echo " \uf493"
+                        ;;
+   		*iminds.be*)
+			echo "`hostname -s`"
+			;;
 		*)
 			if [ -f /.dockerenv ]; then
 				echo "\uf308  $HOSTN";
