@@ -458,17 +458,17 @@ function zsh_host(){
 	HOSTN="`hostname -f`"
 	case $HOSTN in 
 		*"laptop"*)
-		echo "\uf109"
-		;;
+			echo "\uf109"
+			;;
 		*desktop*)
 			echo "\uf108"
 			;;
 		*pi*)
 			echo "\ue722"
 			;;
-		*iminds.be*)
-		echo "`hostname -s`"
-		;;
+		*exobot-compute*)
+                        echo " \uf233"
+			;;
 		*)
 			if [ -f /.dockerenv ]; then
 				echo "\uf308  $HOSTN";
