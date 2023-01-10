@@ -66,9 +66,3 @@ plugins=(battery git docker)
 # Custom prompt
 #autoload -U colors && colors
 #PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
-
-##### Custom variables ######
-
-## ROS
-source /opt/ros/kinetic/setup.zsh
-source /fieldbot_ros/devel/setup.zsh
