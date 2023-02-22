@@ -473,7 +473,7 @@ function zsh_host(){
 			echo " \uf233"
 			;;
 		*exo-land*)
-                        echo " \ueb99"
+                        echo " \uf1b9"
                         ;;
    		*iminds.be*)
 			echo "`hostname -s`"
