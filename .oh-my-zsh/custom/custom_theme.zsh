@@ -472,8 +472,8 @@ function zsh_host(){
 		*gpu*)
 			echo " \uf233"
 			;;
-		*jetson*)
-                        echo " \uf493"
+		*exo-land*)
+                        echo " \uf07a7"
                         ;;
    		*iminds.be*)
 			echo "`hostname -s`"
