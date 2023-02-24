@@ -77,7 +77,7 @@ export LANGUAGE="en_US.UTF-8"
 if [ -f /opt/ros/foxy/setup.zsh ]; then
 	source /opt/ros/humble/setup.zsh
 fi
-if [ -f /treebot_data_acquisition/install/setup.zsh ]; then
-    source /treebot_data_acquisition/install/setup.zsh
+if [ -f /la2_simulation/install/setup.zsh ]; then
+    source /la2_simulation/install/setup.zsh
     source /usr/share/gazebo/setup.sh   
 fi
