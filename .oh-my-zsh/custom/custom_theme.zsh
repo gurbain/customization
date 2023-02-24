@@ -458,25 +458,22 @@ function zsh_host(){
 	HOSTN="`hostname -f`"
 	case $HOSTN in 
 		*"laptop"*)
-		echo "\uf109"
-		;;
+			HOSTN="\uf109"
+			;;
 		*desktop*)
-			echo "\uf108"
+			HOSTN="\uf108"
 			;;
 		*pi*)
-			echo "\ue722"
+			HOSTN="\ue722"
 			;;
-		*iminds.be*)
-		echo "`hostname -s`"
-		;;
 		*)
-			if [ -f /.dockerenv ]; then
-				echo "\uf308  $HOSTN";
-			else
-				echo $HOSTN;
-			fi
+			HOSTN="$HOSTN"
 			;;
 	esac
+	if [ -f /.dockerenv ]; then
+		HOSTN="\uf308  $HOSTN";
+	fi
+	echo $HOSTN
 }
 POWERLEVEL9K_HOST_TEMPLATE="`zsh_host`"
 
