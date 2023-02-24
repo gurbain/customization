@@ -68,11 +68,16 @@ plugins=(battery git docker)
 #PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
 
 ##### Custom variables ######
-
-## Language
-export LANGUAGE="C.UTF-8"
-export LC_ALL="C.UTF-8"
+# Language
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+export LANGUAGE="en_US.UTF-8"
 
 ## ROS
-source /opt/ros/melodic/setup.zsh
-source /fieldbot_ros/devel/setup.zsh
+if [ -f /opt/ros/foxy/setup.zsh ]; then
+	source /opt/ros/humble/setup.zsh
+fi
+if [ -f /treebot_data_acquisition/install/setup.zsh ]; then
+    source /treebot_data_acquisition/install/setup.zsh
+    source /usr/share/gazebo/setup.sh   
+fi
