@@ -456,7 +456,7 @@ POWERLEVEL9K_DISK_USAGE_CRITICAL_LEVEL=95					# The usage level that triggers a 
 # This segment displays the current host.
 function zsh_host(){
 	HOSTN="`hostname -f`"
-	echo "\uf308  $HOSTN";
+	echo "\uf308  $HOSTN"
 }
 POWERLEVEL9K_HOST_TEMPLATE="`zsh_host`"
 
